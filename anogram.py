@@ -16,7 +16,7 @@ def anogram_check(string_1,string_2):
     if no_punc_str1 == no_punc_str2: #if both phrase are equal to each other(they are also equal to nothing)
         print(string_1, 'and', string_2, 'are anograms') #tell user phrases are anograms
     else:
-        print( + string_1, 'and', string_2, 'are not anograms') #otherwise tell user they are not
+        print(string_1, 'and', string_2, 'are not anograms') #otherwise tell user they are not
 
 anogram_check(string_1,string_2) #run function
         
